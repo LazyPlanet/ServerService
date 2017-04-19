@@ -1,0 +1,83 @@
+"标识ID
+","版本
+","名称
+","显示名称
+","描述
+","实体ID
+","实体类型
+","名字
+","模型半径(单位：米)
+","模型高度(单位：米)
+","级别
+","性别
+","职业
+","移动速度(单位：米/秒)
+","血量
+","魔法
+","角度、朝向(弧度计算公式：radius = orientation * (2 * 3.1415926 / 360))
+","角度、朝向(弧度计算公式：radius = orientation * (2 * 3.1415926 / 360))
+","地图、场景ID(如果是NPC，则为出生地图)
+","坐标X
+","坐标Y
+","坐标Z
+","视野范围
+","阵营
+","技能数量
+","[1]-技能ID([Skill]数据)
+","[2]-技能ID([Skill]数据)
+","[3]-技能ID([Skill]数据)
+","[4]-技能ID([Skill]数据)
+","[5]-技能ID([Skill]数据)
+","[6]-技能ID([Skill]数据)
+","升级曲线ID([LevelUpCurve]数据)
+","实体状态
+","行为树路径
+","部署时间(秒)
+","攻击速度
+","每次生产实体ID(可以是物品、怪物、或者资源...)
+","每次生产实体周期(每X秒生产一次)
+","每次生产实体数量
+","是否主动实体(怪...)
+"
+393228,"VERSION_TYPE_GLOBAL [全球统一数据
+]",伐木工人,伐木工人,,0,"ENTITY_TYPE_NULL [无实体类型
+]",,0.5,1.5,1,"GENDER_TYPE_MAN [男
+]","PROF_TYPE_FARMER [农民
+]",4,100,100,0,0,589825,0,0,0,30,"CAMP_TYPE_NULL [无阵营
+]",6,0,0,0,0,0,0,0,0,0,4,0,0,0,"ENTITY_ACTION_STATE_TYPE_IDLE [无状态
+]",
+393231,"VERSION_TYPE_GLOBAL [全球统一数据
+]",劳工,劳工,,0,"ENTITY_TYPE_NULL [无实体类型
+]",,0.5,1.5,1,"GENDER_TYPE_MAN [男
+]","PROF_TYPE_FARMER [农民
+]",4,100,100,0,0,589827,0,0,0,30,"CAMP_TYPE_NULL [无阵营
+]",6,0,0,0,0,0,0,0,"ENTITY_ACTION_STATE_TYPE_IDLE [无状态
+]",,0,0,0,0,0,false
+393227,"VERSION_TYPE_GLOBAL [全球统一数据
+]",开矿农民,开矿农民,,0,"ENTITY_TYPE_NULL [无实体类型
+]",,0.5,1.5,1,"GENDER_TYPE_MAN [男
+]","PROF_TYPE_FARMER [农民
+]",4,100,100,0,0,589825,10.11,20.11,30.11,30,"CAMP_TYPE_NULL [无阵营
+]",6,1,2,3,4,5,6,7,"ENTITY_ACTION_STATE_TYPE_IDLE [无状态
+]",,0,0,0,0,0,false
+393230,"VERSION_TYPE_GLOBAL [全球统一数据
+]",火枪手,火枪手,,0,"ENTITY_TYPE_NULL [无实体类型
+]",,0.5,1.5,1,"GENDER_TYPE_MAN [男
+]","PROF_TYPE_FARMER [农民
+]",4,100,100,0,0,589825,0,0,0,30,"CAMP_TYPE_NULL [无阵营
+]",6,0,0,0,0,0,0,0,"ENTITY_ACTION_STATE_TYPE_IDLE [无状态
+]",,0,0,0,0,0,false
+393229,"VERSION_TYPE_GLOBAL [全球统一数据
+]",步兵,步兵,,0,"ENTITY_TYPE_NULL [无实体类型
+]",,0.5,1.5,1,"GENDER_TYPE_MAN [男
+]","PROF_TYPE_FARMER [农民
+]",4,100,100,0,0,589825,0,0,0,30,"CAMP_TYPE_NULL [无阵营
+]",6,0,0,0,0,0,0,0,"ENTITY_ACTION_STATE_TYPE_IDLE [无状态
+]",,0,0,0,0,0,false
+393232,"VERSION_TYPE_GLOBAL [全球统一数据
+]",长矛手,长矛手,,0,"ENTITY_TYPE_HOST [本地居民
+]",,0.5,1.5,1,"GENDER_TYPE_MAN [男
+]","PROF_TYPE_FARMER [农民
+]",1,100,100,0,0,589825,0,0,0,30,"CAMP_TYPE_NULL [无阵营
+]",6,0,0,0,0,0,0,0,"ENTITY_ACTION_STATE_TYPE_IDLE [无状态
+]",,0,0,0,0,0,false

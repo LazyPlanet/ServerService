@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<workspace name="wzry" xmlmetafolder="meta" folder="behaviors" export="exported" language="cpp">
+  <xmlmeta>metadata.xml</xmlmeta>
+  <export>
+    <cpp>
+      <isexported>False</isexported>
+      <exportfilecount>1</exportfilecount>
+      <folder>../exported</folder>
+    </cpp>
+  </export>
+</workspace>

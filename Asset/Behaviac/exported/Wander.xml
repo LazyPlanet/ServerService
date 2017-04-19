@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--EXPORTED BY TOOL, DON'T MODIFY IT!-->
+<!--Source File: Wander.xml-->
+<behavior name="Wander" agenttype="Hoster" version="5">
+  <node class="Parallel" id="4">
+    <property ChildFinishPolicy="CHILDFINISH_LOOP" />
+    <property ExitPolicy="EXIT_ABORT_RUNNINGSIBLINGS" />
+    <property FailurePolicy="FAIL_ON_ONE" />
+    <property SuccessPolicy="SUCCEED_ON_ALL" />
+    <node class="IfElse" id="1">
+      <node class="Condition" id="3">
+        <property Operator="GreaterEqual" />
+        <property Opl="uint Self.Hoster::m_iBaseSpeed" />
+        <property Opr="const uint 5" />
+      </node>
+      <node class="Action" id="2">
+        <property Method="Self.Hoster::Run()" />
+        <property ResultOption="BT_SUCCESS" />
+      </node>
+      <node class="Action" id="0">
+        <property Method="Self.Hoster::Farm()" />
+        <property ResultOption="BT_SUCCESS" />
+      </node>
+    </node>
+    <node class="Compute" id="6">
+      <property Operator="Add" />
+      <property Opl="uint Self.Hoster::m_iBaseSpeed" />
+      <property Opr1="uint Self.Hoster::m_iBaseSpeed" />
+      <property Opr2="const uint 3" />
+    </node>
+    <node class="DecoratorTime" id="5">
+      <property DecorateWhenChildEnds="false" />
+      <property Time="const float 2000" />
+      <node class="Action" id="7">
+        <property Method="Self.Hoster::Wander()" />
+        <property ResultOption="BT_SUCCESS" />
+      </node>
+    </node>
+  </node>
+</behavior>

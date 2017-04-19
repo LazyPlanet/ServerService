@@ -1,0 +1,76 @@
+/*
+ * 认证相关协议定义，完全从PROTOCOL文件中复制.
+ *
+ * 客户端无需关心具体协议来自何种服务器.
+*/
+
+package Auth;
+
+/////////////////////////////////////////////////////
+//通用协议类型
+/////////////////////////////////////////////////////
+enum META_TYPE {
+	///////////客户端发送数据///////////
+	META_TYPE_C2S_BEGIN = 1; //客户端开始协议
+	META_TYPE_C2S_LOGIN = 2; //登录游戏
+	///////////服务器发送数据///////////
+	META_TYPE_S2C_TICKET = 502; //登录认证
+	META_TYPE_S2C_SERVER_LIST = 503; //游戏服务器列表(AS->C)
+	META_TYPE_S2C_PLAYERS = 504; //同步账号下角色数据(AS->C)      
+	///////////服务器之间收发送数据///////////
+	META_TYPE_S2S_REGISTER = 1002; //注册服务器
+}
+
+message Meta {
+	optional META_TYPE type_t = 1;
+	optional bytes stuff = 2;
+}
+
+message Account {
+	optional bytes username = 1;
+	optional bytes password = 2;
+	optional int32 expiry_time = 3;
+}
+
+//登录游戏
+message Login {
+	optional META_TYPE type_t = 1 [ default = META_TYPE_C2S_LOGIN ];
+	optional Account account = 2;
+}
+
+//入场券
+message LoginTicket {
+	enum AuthenticationState {
+		LOGIN = 1;
+		UNLAWFUL = 2;  
+		DONE = 3;
+	}
+	optional META_TYPE type_t = 1 [ default = META_TYPE_S2C_TICKET ];
+	optional AuthenticationState authentication_state = 2;
+	optional string ticket = 3;
+}
+
+//游戏服务器数据
+message Server {
+	enum ServerState {
+		NORMAL = 1;
+		HOT = 2;
+	}
+	optional int32 server_id = 1;
+	optional string ip_address = 2;
+	optional int32 port = 3;
+	optional int32 zone = 4;
+	optional ServerState state = 5;
+}
+
+//游戏服务器列表
+message ServerList {
+	optional META_TYPE type_t = 1 [ default = META_TYPE_S2C_SERVER_LIST ];
+	repeated Server list = 2; 
+}
+
+//注册游戏服务器
+message RegisterServer {
+	optional META_TYPE type_t = 1 [ default = META_TYPE_S2S_REGISTER ];
+	optional Server server = 2; 
+}

@@ -1,0 +1,131 @@
+"[20]-升级后的实体ID
+","[20]-消耗数量
+","[20]-消耗类型
+","[20]-到达等级
+","[19]-升级后的实体ID
+","[19]-消耗数量
+","[19]-消耗类型
+","[19]-到达等级
+","[18]-升级后的实体ID
+","[18]-消耗数量
+","[18]-消耗类型
+","[18]-到达等级
+","[17]-升级后的实体ID
+","[17]-消耗数量
+","[17]-消耗类型
+","[17]-到达等级
+","[16]-升级后的实体ID
+","[16]-消耗数量
+","[16]-消耗类型
+","[16]-到达等级
+","[15]-升级后的实体ID
+","[15]-消耗数量
+","[15]-消耗类型
+","[15]-到达等级
+","[14]-升级后的实体ID
+","[14]-消耗数量
+","[14]-消耗类型
+","[14]-到达等级
+","[13]-升级后的实体ID
+","[13]-消耗数量
+","[13]-消耗类型
+","[13]-到达等级
+","[12]-升级后的实体ID
+","[12]-消耗数量
+","[12]-消耗类型
+","[12]-到达等级
+","[11]-升级后的实体ID
+","[11]-消耗数量
+","[11]-消耗类型
+","[11]-到达等级
+","[10]-升级后的实体ID
+","[10]-消耗数量
+","[10]-消耗类型
+","[10]-到达等级
+","[9]-升级后的实体ID
+","[9]-消耗数量
+","[9]-消耗类型
+","[9]-到达等级
+","[8]-升级后的实体ID
+","[8]-消耗数量
+","[8]-消耗类型
+","[8]-到达等级
+","[7]-升级后的实体ID
+","[7]-消耗数量
+","[7]-消耗类型
+","[7]-到达等级
+","[6]-升级后的实体ID
+","[6]-消耗数量
+","[6]-消耗类型
+","[6]-到达等级
+","[5]-升级后的实体ID
+","[5]-消耗数量
+","[5]-消耗类型
+","[5]-到达等级
+","[4]-升级后的实体ID
+","[4]-消耗数量
+","[4]-消耗类型
+","[4]-到达等级
+","[3]-升级后的实体ID
+","[3]-消耗数量
+","[3]-消耗类型
+","[3]-到达等级
+","[2]-升级后的实体ID
+","[2]-消耗数量
+","[2]-消耗类型
+","[2]-到达等级
+","[1]-升级后的实体ID
+","[1]-消耗数量
+","[1]-消耗类型
+","[1]-到达等级
+","消耗数量
+","描述
+","显示名称
+","名称
+","版本
+","标识ID
+"
+524290,"VERSION_TYPE_GLOBAL [全球统一数据
+]",怪物升级曲线,怪物升级曲线,,20,1,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0
+524289,"VERSION_TYPE_GLOBAL [全球统一数据
+]",玩家升级曲线,玩家升级曲线,,20,1,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",2,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,0,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0,20,"CONSUME_TYPE_EXPERIENCE [经验
+]",0,0
